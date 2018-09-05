@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { TouchableOpacity, Text, View} from 'react-native';
 import homePageStyle from '../styles/homePageStyle';
 
+
 type Props = {}
 export default class HomePage extends Component <Props> {
     constructor(props) {
