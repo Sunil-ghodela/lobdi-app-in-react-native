@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import {TouchableOpacity, Text, View} from 'react-native';
+import { ListView,TouchableOpacity, Text, View} from 'react-native';
 import listViewStyle from '../styles/listViewStyle';
 
 
 type Props = {}
-export default class ListView extends Component <Props> {
+export default class ListViewDemo extends Component <Props> {
     state = {
         names: [
            {
