@@ -9,8 +9,13 @@ import InputFieldDemo from './src/components/InputField';
 import ScrollViewDemo2 from './src/components/ScrollView2';
 import AnimatedApiDemoImage from './src/components/AnimationApiDemoImage';
 
+
+import StackNavigatorDemo from './src/components/StackNavigator';
+
+
 import homePageStyle from './src/styles/homePageStyle';
 import animationDemoStyle from './src/styles/animationDemoStyle';
+
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -19,12 +24,8 @@ export default class App extends Component<Props> {
 	    <>
             <View style={homePageStyle.homeContainer} >
 
-                {/* <AnimatedApiDemo style={animationDemoStyle.animationContainer}>
-
-                    <Text style={animationDemoStyle.animatonTextComingSoon}>Coming soon</Text>
-
-                </AnimatedApiDemo> */}
-                <AnimatedApiDemoImage />
+                
+               <StackNavigatorDemo />
 
             </View>
 	    </>
