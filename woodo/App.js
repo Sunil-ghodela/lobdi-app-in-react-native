@@ -7,6 +7,7 @@ import ActivityIndicatorDemo from './src/components/ActivityIndicator';
 import FlatListDemo from './src/components/FlatList';
 import InputFieldDemo from './src/components/InputField';
 import ScrollViewDemo2 from './src/components/ScrollView2';
+import AnimatedApiDemoImage from './src/components/AnimationApiDemoImage';
 
 import homePageStyle from './src/styles/homePageStyle';
 import animationDemoStyle from './src/styles/animationDemoStyle';
@@ -18,11 +19,12 @@ export default class App extends Component<Props> {
 	    <>
             <View style={homePageStyle.homeContainer} >
 
-                <AnimatedApiDemo style={animationDemoStyle.animationContainer}>
+                {/* <AnimatedApiDemo style={animationDemoStyle.animationContainer}>
 
                     <Text style={animationDemoStyle.animatonTextComingSoon}>Coming soon</Text>
 
-                </AnimatedApiDemo>
+                </AnimatedApiDemo> */}
+                <AnimatedApiDemoImage />
 
             </View>
 	    </>
