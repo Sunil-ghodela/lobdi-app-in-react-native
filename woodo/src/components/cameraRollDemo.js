@@ -1,5 +1,20 @@
 import React, { Component } from 'react';
-import {  Animated, Text, View } from 'react-native';
+import {  
+    Text,
+	View,
+	TouchableHighlight,
+	Modal,
+	Button,
+	CameraRoll,
+	Image,
+	Dimensions,
+	ScrollView,
+    StyleSheet,
+    Platform,
+    Alert,
+    ActivityIndicator
+} from 'react-native';
+
 
 type Props = {}
 export default class CameraRollDemo extends Component<Props> {
@@ -8,7 +23,11 @@ export default class CameraRollDemo extends Component<Props> {
     render() {
         
         return (
-            
+            <View>
+                <Text>
+                    Anybody...
+                </Text>
+            </View>
         )
     }
 }
